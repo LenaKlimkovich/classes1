@@ -32,7 +32,11 @@ const config = {
   // ],
 
   // Indicates which provider should be used to instrument code for coverage
+<<<<<<< HEAD
   coverageProvider: "babel",
+=======
+  // coverageProvider: "babel",
+>>>>>>> origin/main
 
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
@@ -77,6 +81,7 @@ const config = {
   // ],
 
   // An array of file extensions your modules use
+<<<<<<< HEAD
   moduleFileExtensions: [
     "js",
     "mjs",
@@ -95,6 +100,21 @@ const config = {
 },
 
 testEnvironment: "node",
+=======
+  // moduleFileExtensions: [
+  //   "js",
+  //   "mjs",
+  //   "cjs",
+  //   "jsx",
+  //   "ts",
+  //   "mts",
+  //   "cts",
+  //   "tsx",
+  //   "json",
+  //   "node"
+  // ],
+
+>>>>>>> origin/main
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
   // moduleNameMapper: {},
 
@@ -132,9 +152,15 @@ testEnvironment: "node",
   // rootDir: undefined,
 
   // A list of paths to directories that Jest should use to search for files in
+<<<<<<< HEAD
   roots: [
     "<rootDir>"
   ],
+=======
+  // roots: [
+  //   "<rootDir>"
+  // ],
+>>>>>>> origin/main
 
   // Allows you to use a custom runner instead of Jest's default test runner
   // runner: "jest-runner",
@@ -161,6 +187,7 @@ testEnvironment: "node",
   // testLocationInResults: false,
 
   // The glob patterns Jest uses to detect test files
+<<<<<<< HEAD
   testMatch: [
     "**/__tests__/**/*.?([mc])[jt]s?(x)",
     "**/?(*.)+(spec|test).?([mc])[jt]s?(x)"
@@ -170,6 +197,17 @@ testEnvironment: "node",
   testPathIgnorePatterns: [
     "\\\\node_modules\\\\"
   ],
+=======
+  // testMatch: [
+  //   "**/__tests__/**/*.?([mc])[jt]s?(x)",
+  //   "**/?(*.)+(spec|test).?([mc])[jt]s?(x)"
+  // ],
+
+  // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
+  // testPathIgnorePatterns: [
+  //   "\\\\node_modules\\\\"
+  // ],
+>>>>>>> origin/main
 
   // The regexp pattern or array of patterns that Jest uses to detect test files
   // testRegex: [],
@@ -184,10 +222,17 @@ testEnvironment: "node",
   // transform: undefined,
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
+<<<<<<< HEAD
   transformIgnorePatterns: [
     "\\\\node_modules\\\\",
     "\\.pnp\\.[^\\\\]+$"
   ],
+=======
+  // transformIgnorePatterns: [
+  //   "\\\\node_modules\\\\",
+  //   "\\.pnp\\.[^\\\\]+$"
+  // ],
+>>>>>>> origin/main
 
   // An array of regexp pattern strings that are matched against all modules before the module loader will automatically return a mock for them
   // unmockedModulePathPatterns: undefined,
