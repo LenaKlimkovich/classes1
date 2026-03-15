@@ -1,0 +1,36 @@
+{
+  "name": "classes1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/LenaKlimkovich/classes1#readme",
+  "bugs": {
+    "url": "https://github.com/LenaKlimkovich/classes1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LenaKlimkovich/classes1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "babel-jest": "^30.3.0",
+    "babel-loader": "^10.1.0",
+    "cross-env": "^10.1.0",
+    "eslint": "^10.0.2",
+    "jest": "^30.3.0",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
