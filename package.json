@@ -1,16 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "classes1",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/LenaKlimkovich/classes1#readme",
-  "bugs": {
-    "url": "https://github.com/LenaKlimkovich/classes1/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LenaKlimkovich/classes1.git"
-=======
   "name": "classes2",
   "version": "1.0.0",
   "description": "",
@@ -21,7 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LenaKlimkovich/classes1.git"
->>>>>>> origin/main
   },
   "license": "ISC",
   "author": "",
@@ -37,10 +24,7 @@
     "@babel/cli": "^7.28.6",
     "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.29.0",
-<<<<<<< HEAD
     "babel-jest": "^30.3.0",
-=======
->>>>>>> origin/main
     "babel-loader": "^10.1.0",
     "cross-env": "^10.1.0",
     "eslint": "^10.0.2",
